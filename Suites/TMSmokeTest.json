@@ -1,0 +1,20 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "local",
+      "path": "../Authentication/TMLogin.json"
+    },
+    {
+      "where": "local",
+      "path": "../Authentication/TMSampleSearch.json"
+    },
+    {
+      "where": "local",
+      "path": "../Authentication/TMLogout.json"
+    }
+  ],
+  "shareState": true
+}
