@@ -9,7 +9,7 @@
     },
     {
       "where": "local",
-      "path": "../Authentication/TMSampleSearch.json"
+      "path": "../Search/TMSampleSearch.json"
     },
     {
       "where": "local",
