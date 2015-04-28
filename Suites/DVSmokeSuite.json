@@ -5,15 +5,15 @@
   "scripts": [
     {
       "where": "github",
-      "path": "ellisdn/nortoncn/automated-testing/master/Selenium/Tests/DVLogin.json"
+      "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Authentication/DVLogin.json"
     },
     {
       "where": "github",
-      "path": "ellisdn/nortoncn/automated-testing/master/Selenium/Tests/DVSmoke.json"
+      "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSmokeSearch.json"
     },
     {
       "where": "github",
-      "path": "ellisdn/nortoncn/automated-testing/master/Selenium/Tests/DVLogout.json"
+      "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Authentication/DVLogout.json"
     }
   ],
   "shareState": true
