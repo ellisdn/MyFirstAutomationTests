@@ -18,6 +18,56 @@
     {
       "type": "verifyTextPresent",
       "text": "Admin"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Upload"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Other Upload"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Upload a new data set to Dataverse"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-12']/div[1]/select"
+      },
+      "value": "Choose a study to upload to"
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-12']/div[2]/select"
+      },
+      "value": "Choose a data set type to upload"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tables"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Source"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Target"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Upload"
     }
   ],
   "data": {
