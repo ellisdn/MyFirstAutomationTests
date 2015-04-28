@@ -36,6 +36,19 @@
       "variable": "NumberOfSamples"
     },
     {
+      "type": "storeText",
+      "step_name": "7.",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
+      },
+      "variable": "NumberOfSamples2"
+    },
+    {
+      "type": "print",
+      "text": "${NumberOfSamples} Samples found by landing page"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -43,8 +56,9 @@
       }
     },
     {
-      "type": "print",
-      "text": "${NumberOfSamples} Samples found by search"
+      "type": "verifyEval",
+      "script": "storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']",
+      "value": "true"
     }
   ],
   "data": {
