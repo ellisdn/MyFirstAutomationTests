@@ -45,13 +45,13 @@
       "variable": "NumberOfSamples2"
     },
     {
-      "type": "verifyEval",
-      "script": "storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']",
-      "value": "true"
-    },
-    {
       "type": "print",
       "text": "${NumberOfSamples} Samples found by landing page"
+    },
+    {
+      "type": "verifyEval",
+      "script": " return storedVars\"${NumberOfSamples}\"==storedVars\"${NumberOfSamples2}\"",
+      "value": "value"
     },
     {
       "type": "clickElement",
