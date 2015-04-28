@@ -1,0 +1,56 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "verifyTextPresent",
+      "text": "Search"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Download"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Upload"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Admin"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//nav/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "storeText",
+      "step_name": "7.",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
+      },
+      "variable": "NumberOfSamples"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
+      }
+    },
+    {
+      "type": "print",
+      "text": "${NumberOfSamples} Samples found by search"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
