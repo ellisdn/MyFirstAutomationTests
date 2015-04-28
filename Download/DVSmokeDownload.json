@@ -18,6 +18,17 @@
     {
       "type": "verifyTextPresent",
       "text": "Admin"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//nav/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "There are no results to download. You must first search for the data of interest."
     }
   ],
   "data": {
