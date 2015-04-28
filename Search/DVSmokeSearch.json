@@ -20,6 +20,13 @@
       "text": "Admin"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//nav/ul/li[1]/a"
+      }
+    },
+    {
       "type": "storeText",
       "step_name": "7.",
       "locator": {
