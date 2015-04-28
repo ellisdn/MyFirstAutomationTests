@@ -36,11 +36,6 @@
       "variable": "NumberOfSamples"
     },
     {
-      "type": "storeEval",
-      "script": "storedVars${NumberOfSamples}",
-      "variable": "InitialSamples"
-    },
-    {
       "type": "storeText",
       "step_name": "7.",
       "locator": {
@@ -48,6 +43,11 @@
         "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
       },
       "variable": "NumberOfSamples2"
+    },
+    {
+      "type": "storeEval",
+      "script": "javascript {storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']return }",
+      "variable": "true"
     },
     {
       "type": "print",
