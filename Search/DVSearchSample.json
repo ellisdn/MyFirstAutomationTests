@@ -45,6 +45,11 @@
       "variable": "NumberOfSamples2"
     },
     {
+      "type": "verifyEval",
+      "script": "javascript{storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']}",
+      "value": "true"
+    },
+    {
       "type": "print",
       "text": "${NumberOfSamples} Samples found by landing page"
     },
@@ -54,11 +59,6 @@
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
       }
-    },
-    {
-      "type": "verifyEval",
-      "script": "storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']",
-      "value": "true"
     }
   ],
   "data": {
