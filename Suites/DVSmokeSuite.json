@@ -11,6 +11,10 @@
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSmokeSearch.json"
     },
+	    {
+      "where": "github",
+      "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSmokeSearch.json"
+    },
     {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Authentication/DVLogout.json"
