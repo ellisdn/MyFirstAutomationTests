@@ -45,9 +45,9 @@
       "variable": "NumberOfSamples2"
     },
     {
-      "type": "storeEval",
-      "script": "javascript {storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']return }",
-      "variable": "true"
+      "type": "verifyEval",
+      "script": "storedVars['NumberOfSamples']==storedVars['NumberOfSamples2']",
+      "value": "true"
     },
     {
       "type": "print",
