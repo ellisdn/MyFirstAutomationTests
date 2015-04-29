@@ -61,6 +61,13 @@
       }
     },
     {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[1]/h4/a/span"
+      }
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -78,6 +85,13 @@
     {
       "type": "verifyTextPresent",
       "text": "Sample ID"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/input"
+      }
     },
     {
       "type": "setElementSelected",
