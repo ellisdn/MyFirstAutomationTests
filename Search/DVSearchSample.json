@@ -157,7 +157,7 @@
     },
     {
       "type": "verifyTextPresent",
-      "text": "First replicate of NeuroTrans_UMR7637 hybridization performed with 15ÃÂµg of cortex RNA"
+      "text": "Mus musculus"
     },
     {
       "type": "clickElement",
