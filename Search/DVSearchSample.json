@@ -61,10 +61,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "1000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
