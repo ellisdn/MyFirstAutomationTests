@@ -101,10 +101,24 @@
       }
     },
     {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[5]/div[2]/div[1]/input"
+      }
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[5]/div[2]/div[1]/input"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[6]/div[2]/div[1]/input"
       }
     },
     {
