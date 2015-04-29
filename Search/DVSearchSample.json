@@ -114,8 +114,8 @@
     {
       "type": "waitForElementPresent",
       "locator": {
-        "type": "link text",
-        "value": "GSM183540"
+        "type": "xpath",
+        "value": "//ol[@class='list-group']//a[normalize-space(.)='GSM188310']"
       }
     },
     {
@@ -127,11 +127,15 @@
     },
     {
       "type": "waitForTextPresent",
-      "text": "Mus musculus"
+      "text": "21/04/2015"
     },
     {
       "type": "verifyTextPresent",
-      "text": "Mus musculus"
+      "text": "21/04/2015"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "GSM188310"
     },
     {
       "type": "clickElement",
