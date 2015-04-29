@@ -61,11 +61,8 @@
       }
     },
     {
-      "type": "waitForElementPresent",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[1]/h4/a/span"
-      }
+      "type": "pause",
+      "waitTime": "1000"
     },
     {
       "type": "clickElement",
@@ -73,6 +70,10 @@
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[1]/h4/a/span"
       }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Dataverse Date Loaded"
     },
     {
       "type": "verifyTextPresent",
@@ -87,18 +88,15 @@
       "text": "Sample ID"
     },
     {
-      "type": "waitForElementPresent",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/input"
       }
     },
     {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/input"
-      }
+      "type": "pause",
+      "waitTime": "1"
     },
     {
       "type": "waitForElementPresent",
@@ -115,6 +113,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1"
+    },
+    {
       "type": "waitForElementPresent",
       "locator": {
         "type": "xpath",
@@ -126,6 +128,17 @@
       "locator": {
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[6]/div[2]/div[1]/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "1"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "link text",
+        "value": "GSM183540"
       }
     },
     {
@@ -136,8 +149,12 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1"
+    },
+    {
       "type": "verifyTextPresent",
-      "text": "First replicate of NeuroTrans_UMR7637 hybridization performed with 15µg of cortex RNA"
+      "text": "First replicate of NeuroTrans_UMR7637 hybridization performed with 15Âµg of cortex RNA"
     },
     {
       "type": "clickElement",
