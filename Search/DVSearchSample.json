@@ -112,6 +112,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "1000"
+    },
+    {
       "type": "waitForElementPresent",
       "locator": {
         "type": "xpath",
@@ -140,8 +144,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Search"
+        "type": "xpath",
+        "value": "//nav/ul/li[1]/a"
       }
     }
   ],
