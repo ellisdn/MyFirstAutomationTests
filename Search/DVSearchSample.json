@@ -98,10 +98,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "1"
-    },
-    {
       "type": "waitForElementPresent",
       "locator": {
         "type": "xpath",
@@ -116,10 +112,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "1"
-    },
-    {
       "type": "waitForElementPresent",
       "locator": {
         "type": "xpath",
@@ -132,10 +124,6 @@
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[6]/div[2]/div[1]/input"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "1"
     },
     {
       "type": "waitForElementPresent",
@@ -152,8 +140,8 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "1"
+      "type": "waitForTextPresent",
+      "text": "Mus musculus"
     },
     {
       "type": "verifyTextPresent",
