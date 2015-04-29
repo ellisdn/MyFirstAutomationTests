@@ -14,12 +14,12 @@
     {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSearchSubject.json"
-    },    
-	{
+    },
+    {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSearchStudy.json"
     },
-	{
+    {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSearchVisit.json"
     }
