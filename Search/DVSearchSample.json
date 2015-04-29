@@ -110,6 +110,13 @@
     {
       "type": "verifyTextPresent",
       "text": "First replicate of NeuroTrans_UMR7637 hybridization performed with 15µg of cortex RNA"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Search"
+      }
     }
   ],
   "data": {
