@@ -50,8 +50,8 @@
     },
     {
       "type": "verifyEval",
-      "script": " return storedVars\"${NumberOfSamples}\"==storedVars\"${NumberOfSamples2}\"",
-      "value": "value"
+      "script": " javascript{storedVars['${NumberOfSamples}']==storedVars['${NumberOfSamples2}']}",
+      "value": "true"
     },
     {
       "type": "clickElement",
@@ -59,6 +59,57 @@
         "type": "xpath",
         "value": "//div[1]/ui-view/ui-view/ul/li[1]/a/span[2]"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[1]/h4/a/span"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Dataverse Date Loaded"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Sample Type"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Sample ID"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[5]/div[2]/div[1]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/ui-view/ui-view/div/div[2]/div[1]/accordion/div/div[2]/div[2]/div/div[6]/div[2]/div[1]/input"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "GSM183540"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "First replicate of NeuroTrans_UMR7637 hybridization performed with 15µg of cortex RNA"
     }
   ],
   "data": {
