@@ -15,11 +15,11 @@
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Search/DVSmokeSearch.json"
     },
-	    {
+    {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Upload/DVSmokeUpload.json"
     },
-	    {
+    {
       "where": "github",
       "path": "ellisdn/ellisdn/MyFirstAutomationTests/master/Admin/DVSmokeAdmin.json"
     },
