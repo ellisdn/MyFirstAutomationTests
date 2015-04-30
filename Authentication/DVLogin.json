@@ -20,7 +20,7 @@
         "type": "id",
         "value": "email"
       },
-      "text": "egg@test.com"
+      "text": "${login}"
     },
     {
       "type": "clickElement",
@@ -31,13 +31,13 @@
     },
     {
       "type": "verifyTextPresent",
-      "text": "egg@test.com"
+      "text": "${login}"
     },
     {
       "type": "storeText",
       "locator": {
         "type": "link text",
-        "value": "egg@test.com"
+        "value": "${login}"
       },
       "variable": "emailaddress"
     },
@@ -47,8 +47,12 @@
     }
   ],
   "data": {
-    "configs": {},
-    "source": "none"
+    "configs": {
+      "xml": {
+        "path": "C:\\Users\\Daves\\Documents\\GitHub\\MyFirstAutomationTests\\TestData\\DVLoginTestData.xml"
+      }
+    },
+    "source": "xml"
   },
   "inputs": [],
   "timeoutSeconds": 60
