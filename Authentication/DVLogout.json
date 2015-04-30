@@ -7,8 +7,12 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "egg@test.com"
+        "value": "${login}"
       }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "${login}"
     },
     {
       "type": "clickElement",
