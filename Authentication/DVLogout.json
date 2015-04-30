@@ -15,6 +15,10 @@
       "text": "${login}"
     },
     {
+      "type": "print",
+      "text": "${login} has logged out successfully"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
