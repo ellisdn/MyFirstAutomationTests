@@ -1,0 +1,30 @@
+describe('Selenium Test Case', function() {
+  it('should execute test case without errors', function() {
+    var text, value, bool, source, url, title;
+    var TestVars = {};
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Search");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Download");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Upload");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Admin");
+    element(by.linkText("Upload")).click();
+    element(by.linkText("Other Upload")).click();
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Upload a new data set to Dataverse");
+    value = element(by.xpath("//div[@class='col-md-12']/div[1]/select")).getAttribute('value');
+    expect(value).toContain("" + "Choose a study to upload to");
+    value = element(by.xpath("//div[@class='col-md-12']/div[2]/select")).getAttribute('value');
+    expect(value).toContain("" + "Choose a data set type to upload");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Tables");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Source");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Target");
+    text = element(by.tagName('html')).getText();
+    expect(text).toContain("" + "Upload");
+  });
+});
